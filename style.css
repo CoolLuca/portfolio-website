@@ -1,0 +1,90 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #008080;
+    margin: 0;
+}
+/* 
+#home{
+    display: grid;
+} */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+}
+
+.centredWindow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+a.button-98 {
+    font-family: "Pixelated MS Sans Serif", Arial;
+    -webkit-font-smoothing: none;
+    font-size: 1em;
+    box-sizing: border-box;
+    border: none;
+    background: #c0c0c0;
+    box-shadow: inset -1px -1px #0a0a0a,
+      inset 1px 1px #ffffff, inset -2px -2px #808080,
+      inset 2px 2px #dfdfdf;
+    border-radius: 0;
+  
+    min-width: 75px;
+    min-height: 23px;
+    padding: 0 12px;
+
+    color: #222222;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+}
+
+a.button-98:not(:disabled):active {
+    box-shadow: inset -1px -1px #ffffff,
+      inset 1px 1px #0a0a0a, inset -2px -2px #dfdfdf,
+      inset 2px 2px #808080;
+}
+
+a.button-98:focus {
+    outline: 1px dotted #000000;
+    outline-offset: -4px;
+}
+
+.topRight {
+    position: fixed; 
+    top: 0px; 
+    right: 0px;
+}
+
+.bottom {
+    position: fixed; 
+    bottom: 0px; 
+}
+
+p {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+form textarea, form input {
+    resize: none;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    cursor:auto;
+}
