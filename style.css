@@ -60,15 +60,6 @@ a.button-98:focus {
     outline-offset: -4px;
 }
 
-.topRight {
-    top: 0px;
-    right: 0px;
-    margin: 2vh;
-    align-items: left;
-    display: flex;
-    justify-content: right;
-}
-
 @media (max-width: 470px) {
     .topRight {
         top: 0px;
@@ -79,6 +70,17 @@ a.button-98:focus {
         justify-content: center;
     }
 }
+
+.topRight {
+    top: 0px;
+    right: 0px;
+    margin: 2vh;
+    align-items: left;
+    display: flex;
+    justify-content: right;
+}
+
+
 
 .bottom {
     position: fixed;
