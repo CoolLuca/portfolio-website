@@ -6,6 +6,7 @@ body {
     background-color: #008080;
     margin: 0;
 }
+
 /* 
 #home{
     display: grid;
@@ -31,10 +32,10 @@ a.button-98 {
     border: none;
     background: #c0c0c0;
     box-shadow: inset -1px -1px #0a0a0a,
-      inset 1px 1px #ffffff, inset -2px -2px #808080,
-      inset 2px 2px #dfdfdf;
+        inset 1px 1px #ffffff, inset -2px -2px #808080,
+        inset 2px 2px #dfdfdf;
     border-radius: 0;
-  
+
     min-width: 75px;
     min-height: 23px;
     padding: 0 12px;
@@ -50,8 +51,8 @@ a.button-98 {
 
 a.button-98:not(:disabled):active {
     box-shadow: inset -1px -1px #ffffff,
-      inset 1px 1px #0a0a0a, inset -2px -2px #dfdfdf,
-      inset 2px 2px #808080;
+        inset 1px 1px #0a0a0a, inset -2px -2px #dfdfdf,
+        inset 2px 2px #808080;
 }
 
 a.button-98:focus {
@@ -60,14 +61,17 @@ a.button-98:focus {
 }
 
 .topRight {
-    position: fixed; 
-    top: 0px; 
+    top: 0px;
     right: 0px;
+    margin: 2vh;
+    align-items: left;
+    display: flex;
+    justify-content: right;
 }
 
 .bottom {
-    position: fixed; 
-    bottom: 0px; 
+    position: fixed;
+    bottom: 0px;
 }
 
 p {
@@ -82,9 +86,10 @@ form {
     padding: 1em;
 }
 
-form textarea, form input {
+form textarea,
+form input {
     resize: none;
     margin-bottom: 10px;
     font-size: 1.1em;
-    cursor:auto;
+    cursor: auto;
 }
