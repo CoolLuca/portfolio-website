@@ -61,12 +61,12 @@ a.button-98:focus {
 }
 
 .topRight {
-    top: 0px;
+    /* top: 0px;
     right: 0px;
     margin: 2vh;
     align-items: left;
     display: flex;
-    justify-content: right;
+    justify-content: right; */
 }
 
 .bottom {
