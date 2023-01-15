@@ -88,6 +88,14 @@ a.button-98:focus {
     bottom: 0px;
 }
 
+@media (max-height: 530px) {
+    .bottom {
+        position: relative;
+        display: flex;
+        margin-top: 2vh;
+    }
+}
+
 p {
     font-size: 1.1rem;
     font-weight: bold;
