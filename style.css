@@ -24,6 +24,75 @@ body {
     text-align: center;
 }
 
+.p2 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.p3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+form textarea,
+form input {
+    resize: none;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    cursor: auto;
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    margin: 2vh;
+}
+
+@media screen and (min-width: 1000px) {
+    .column {
+        flex: 1;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .column {
+        align-items: center;
+    }
+}
+
+.project-window {
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 a.button-98 {
     font-family: "Pixelated MS Sans Serif", Arial;
     -webkit-font-smoothing: none;
@@ -94,73 +163,4 @@ a.button-98:focus {
         display: flex;
         margin-top: 2vh;
     }
-}
-
-.p2 {
-    font-size: 1.1rem;
-    font-weight: bold;
-    text-align: center;
-}
-
-.p3 {
-    font-size: 1.2em;
-    font-weight: bold;
-    text-align: center;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    padding: 1em;
-}
-
-form textarea,
-form input {
-    resize: none;
-    margin-bottom: 10px;
-    font-size: 1.1em;
-    cursor: auto;
-}
-
-
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex: 2;
-    align-items: center;
-    justify-content: center;
-    max-width: 1000px;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    margin: 2vh;
-}
-
-@media screen and (min-width: 1000px) {
-    .column {
-        flex: 1;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    .column {
-        align-items: center;
-    }
-}
-
-.project-window {
-    max-width: 500px;
-    justify-content: center;
-    align-items: center;
-}
-
-.button-wrap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
 }
