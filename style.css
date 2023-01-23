@@ -71,7 +71,7 @@ a.button-98:focus {
     justify-content: right;
 }
 
-@media (max-width: 470px) {
+@media (max-width: 530px) {
     .topRight {
         top: 0px;
         right: 0px;
@@ -96,8 +96,14 @@ a.button-98:focus {
     }
 }
 
-p {
+.p2 {
     font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.p3 {
+    font-size: 1.2em;
     font-weight: bold;
     text-align: center;
 }
@@ -114,4 +120,47 @@ form input {
     margin-bottom: 10px;
     font-size: 1.1em;
     cursor: auto;
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    margin: 2vh;
+}
+
+@media screen and (min-width: 1000px) {
+    .column {
+        flex: 1;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .column {
+        align-items: center;
+    }
+}
+
+.project-window {
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
